@@ -224,7 +224,12 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "leave_ban",
+    "LinkPv",
+    "TagAll",
+    "block",
+    "link_lock",
+    "plugins",
+    "sticker_lock",
     "admin"
     },
     sudo_users = {115887468},--Sudo users
