@@ -229,6 +229,7 @@ function create_config( )
     "block",
     "link_lock",
     "plugins",
+    "Group manager",
     "sticker_lock",
     "admin"
     },
