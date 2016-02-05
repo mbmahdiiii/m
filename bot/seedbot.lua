@@ -224,16 +224,9 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "LinkPv",
-    "TagAll",
-    "block",
-    "link_lock",
-    "plugins",
-    "Group manager",
-    "sticker_lock",
     "admin"
     },
-    sudo_users = {115887468,112345396,tonumber},--Sudo users
+    sudo_users = {115887468},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
