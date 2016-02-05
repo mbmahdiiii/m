@@ -18,8 +18,8 @@ end
 if msg.text == "salam" then
 	return "va aleykol asalam"
 end
-if msg.text == "blackhat" then
-	return "my love blackhat"
+if msg.text == "mahdi" then
+	return "با بابایم چیکار داری"
 end
 if msg.text == "Blackhat" then
 	return "my father blackhat"
@@ -57,7 +57,7 @@ return {
 		"^[Hh]i$",
 		"^[Hh]ello$",
 		"^[Bb]lackhat$",
-		"^BLACKHAT$",
+		"^mahdi",
 		"^[Bb]ot$",
 		"^[Ss]ecurity$",
 		"^[Bb]ye$",
