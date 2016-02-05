@@ -6,23 +6,23 @@ end
 if msg.text == "Hi" then
 	return "Hello honey"
 end
-if msg.text == "Hello" then
-	return "Hi bb"
+if msg.text == "slm" then
+	return "سلام کون گشاد"
 end
-if msg.text == "hello" then
-	return "Hi honey"
+if msg.text == "مهدی" then
+	return "با بابایم چیکار داری""
 end
-if msg.text == "Salam" then
-	return "Salam aleykom"
+if msg.text == "سلام" then
+	return "سلام"
 end
 if msg.text == "salam" then
-	return "va aleykol asalam"
+	return "سلام"
 end
 if msg.text == "mahdi" then
 	return "با بابایم چیکار داری"
 end
-if msg.text == "Blackhat" then
-	return "my father blackhat"
+if msg.text == "MAHDI" then
+	return "با بابایم چیکار داری""
 end
 if msg.text == "BLACKHAT" then
 	return "Kheily Radifeh"
@@ -56,7 +56,7 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[Bb]lackhat$",
+		"^سلام",
 		"^mahdi",
 		"^[Bb]ot$",
 		"^[Ss]ecurity$",
