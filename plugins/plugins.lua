@@ -165,17 +165,17 @@ return {
   description = "Plugin to manage other plugins. Enable, disable or reload.", 
   usage = {
     "!plugins: list all plugins.", 
-    "!plugins + [plugin]: enable plugin.",
-    "!plugins - [plugin]: disable plugin.",
-    "!plugins - [plugin] chat: disable plugin only this chat.",
-    "!plugins @: reloads all plugins." },
+    "!plugins enable [plugin]: enable plugin.",
+    "!plugins disable [plugin]: disable plugin.",
+    "!plugins disable [plugin] chat: disable plugin only this chat.",
+    "!plugins reload: reloads all plugins." },
   patterns = {
     "^!plugins$",
-    "^!plugins? (+) ([%w_%.%-]+)$",
-    "^!plugins? (-) ([%w_%.%-]+)$",
-    "^!plugins? (+) ([%w_%.%-]+) (chat)",
-    "^!plugins? (-) ([%w_%.%-]+) (chat)",
-    "^!plugins? (@)$" },
+    "^!plugins? (enable) ([%w_%.%-]+)$",
+    "^!plugins? (disable) ([%w_%.%-]+)$",
+    "^!plugins? (enable) ([%w_%.%-]+) (chat)",
+    "^!plugins? (disable) ([%w_%.%-]+) (chat)",
+    "^!plugins? (reload)$" },
   run = run,
   privileged = true
 }
