@@ -1,28 +1,28 @@
 --shared by @blackhatchannel
 local function run(msg)
-if msg.text == "hi" then
-	return "Hello bb"
-end
-if msg.text == "Hi" then
-	return "Hello honey"
-end
 if msg.text == "slm" then
-	return "سلام کون گشاد"
+	return "مثل آدم سلام کن"
 end
-if msg.text == "مهدی" then
-	return "با بابایم چیکار داری""
-end
-if msg.text == "سلام" then
-	return "سلام"
-end
-if msg.text == "salam" then
-	return "سلام"
+if msg.text == "mb" then
+	return "me"
 end
 if msg.text == "mahdi" then
 	return "با بابایم چیکار داری"
 end
-if msg.text == "MAHDI" then
-	return "با بابایم چیکار داری""
+if msg.text == "hello" then
+	return "Hi honey"
+end
+if msg.text == "Salam" then
+	return "Salam aleykom"
+end
+if msg.text == "salam" then
+	return "va aleykol asalam"
+end
+if msg.text == "blackhat" then
+	return "my love blackhat"
+end
+if msg.text == "Blackhat" then
+	return "my father blackhat"
 end
 if msg.text == "BLACKHAT" then
 	return "Kheily Radifeh"
@@ -54,9 +54,8 @@ return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
 	patterns = {
-		"^[Hh]i$",
-		"^[Hh]ello$",
-		"^سلام",
+		"^slm",
+		"^mb",
 		"^mahdi",
 		"^[Bb]ot$",
 		"^[Ss]ecurity$",
