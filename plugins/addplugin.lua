@@ -1,22 +1,18 @@
-
 local function run(msg, matches)
   local text = matches[1]
-  local b = 1
+  local b = 1 --share by @UB_CH
   while b ~= 0 do
     text = text:trim()
     text,b = text:gsub('^!+','')
   end
   local name = matches[2]
-  local file = io.open("./plugins/"..name..matches[3], "w")
+  local file = io.open("./plugins/"..name..".lua", "w")
   file:write(text)
   file:flush()
   file:close()
-  return "done" end return {
-  description = "a Usefull plugin for sudo !",
-  usage = "A plugins to add Another plugins to the server",
+  return "plugin uploaded " end return {
   patterns = {
-    "^!addplugin +(.+) (.*) (.*)$"
+    "^[Aa]ddplugin +(.+) (.*)$"
   },
   run = run
 }
---shared by @blackhatchannel
