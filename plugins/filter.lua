@@ -128,13 +128,14 @@ end
 
 return {
 	patterns = {
-		"^([/!]filter) (+) (%d+)$",
-		"^([/!]filter) (+) (.+)$",
-		"^([/!]filter) (+)$",
+		"^([/!]filter) (.+) (%d+)$",
+		"^([/!]filter) (.+) (.+)$",
+		"^([/!]filter) (.+)$",
     	"^(.+) (.+) (%d+)$",
   	},
   	run = run
 } 
+
 end
 --Copyright and edit; @behroozyaghi
 --Persian Translate; @behroozyaghi
