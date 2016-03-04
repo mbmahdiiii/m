@@ -11,9 +11,9 @@ end
 
 return {
 description = "Simplest plugin ever!",
-usage = "!echo [whatever]: echoes the msg",
+usage = "بگو [whatever]: echoes the msg",
 patterns = {
-"^!echo +(.+)$"
+"^بگو +(.+)$"
 }, 
 run = run 
 }
