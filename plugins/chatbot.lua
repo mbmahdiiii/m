@@ -31,7 +31,7 @@ if msg.text == "Security" then
 	return "Yes?"
 end
 if msg.text == "😐" then
-	return "😐?"
+	return "😐"
 end
 if msg.text == "bot" then
 	return "hum?"
