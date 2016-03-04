@@ -30,8 +30,8 @@ end
 if msg.text == "Security" then
 	return "Yes?"
 end
-if msg.text == "security" then
-	return "What?"
+if msg.text == "😐" then
+	return "😐?"
 end
 if msg.text == "bot" then
 	return "hum?"
@@ -60,7 +60,7 @@ return {
 		"^[Bb]ot$",
 		"^[Ss]ecurity$",
 		"^[Bb]ye$",
-		"^?$",
+		"^😐$",
 		"^[Ss]alam$",
 		}, 
 	run = run,
