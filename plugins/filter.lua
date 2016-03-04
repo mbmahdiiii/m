@@ -126,12 +126,12 @@ function run( msg, matches )
 end
 
 
-return {
+return {"^(.+) (.+) (%d+)$",
 	patterns = {
 		"^([/!]filter) (.+) (%d+)$",
 		"^([/!]filter) (.+) (.+)$",
 		"^([/!]filter) (.+)$",
-    		"^([/!])listft)$",
+    		"^(.+) (.+) (%d+)$"
   	},
   	run = run
 } 
