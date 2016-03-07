@@ -1,3 +1,5 @@
+do
+
 local function save_filter(msg, name, value)
 	local hash = nil
 	if msg.to.type == 'chat' then
